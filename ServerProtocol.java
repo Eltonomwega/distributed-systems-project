@@ -16,15 +16,11 @@ public  class ServerProtocol implements Runnable{
             public void run() {
                 System.out.println("Connected: " + socket);
                 try {
-                    // var in = new Scanner(socket.getInputStream());
-                    var out = new PrintWriter(socket.getOutputStream(), true);
-                    // while (in.hasNextLine()) {
-                    //     //out.println(in.nextLine().toUpperCase());
-                    // }
 
                     ObjectInputStream oInputStream = new ObjectInputStream(socket.getInputStream());
                     Message obj = (Message) oInputStream.readObject();
                     
+                    var out = new PrintWriter(socket.getOutputStream(), true);
                     out.println(
                         "Your name is: "+ obj.getName()[0] + " "+obj.getName()[1]+"\n"+
                         "Your Adm No. is: "+ obj.getAdmNo()+"\n"+
