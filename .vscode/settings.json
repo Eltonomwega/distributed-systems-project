@@ -1,0 +1,18 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "/media/elton/LENOVO/School Work/Distributed Systems/assignments/javafx-sdk-11.0.2/lib/javafx.media.jar",
+            "/media/elton/LENOVO/School Work/Distributed Systems/assignments/javafx-sdk-11.0.2/lib/javafx.web.jar",
+            "/media/elton/LENOVO/School Work/Distributed Systems/assignments/javafx-sdk-11.0.2/lib/javafx.graphics.jar",
+            "/media/elton/LENOVO/School Work/Distributed Systems/assignments/javafx-sdk-11.0.2/lib/javafx.swing.jar",
+            "/media/elton/LENOVO/School Work/Distributed Systems/assignments/javafx-sdk-11.0.2/lib/javafx.fxml.jar",
+            "/media/elton/LENOVO/School Work/Distributed Systems/assignments/javafx-sdk-11.0.2/lib/javafx.controls.jar",
+            "/media/elton/LENOVO/School Work/Distributed Systems/assignments/javafx-sdk-11.0.2/lib/javafx.base.jar",
+            "/media/elton/LENOVO/School Work/Distributed Systems/assignments/javafx-sdk-11.0.2/lib/javafx-swt.jar"
+        ],
+        "exclude": [
+            "/media/elton/Windows/Users/Elton psycho/Downloads/openjfx-15_windows-x64_bin-sdk/javafx-sdk-15/lib/javafx-swt.jar"
+        ]
+    }
+}

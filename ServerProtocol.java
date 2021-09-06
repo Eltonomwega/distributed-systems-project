@@ -22,10 +22,7 @@ public  class ServerProtocol implements Runnable{
                     
                     var out = new PrintWriter(socket.getOutputStream(), true);
                     out.println(
-                        "Your name is: "+ obj.getName()[0] + " "+obj.getName()[1]+"\n"+
-                        "Your Adm No. is: "+ obj.getAdmNo()+"\n"+
-                        "Your SU details are: "+obj.suDetails()[0] + " "+obj.suDetails()[1] + " "+obj.suDetails()[2]+"\n"+
-                        obj.getThankYou()
+                        "Thank You "+ obj.getName()[0] + " "+obj.getName()[1]
                     );
 
                 } catch (Exception e) {
